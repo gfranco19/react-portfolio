@@ -36,14 +36,14 @@ function NavTabs (){
     <nav ref={myRef} className={navbar ? "navbar active navbar-expand-lg transparent navbar-inverse navbar-light  fixed-top" : "navbar navbar-expand-lg transparent navbar-inverse navbar-light fixed-top"} >
     <ul className="navbar-nav ">
       <li className="nav-item active ">
-      <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+      <Link to="/react-portfolio" className={location.pathname === "/react-portfolio" ? "nav-link active" : "nav-link"}>
           <h3 onClick= {executeScroll} >Home</h3>
         </Link>
       </li>
       </ul>
       <ul className="navbar-nav ml-auto">
       <li className="nav-item active ">
-      <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+      <Link to="/react-portfolio" className={location.pathname === "/react-portfolio" ? "nav-link active" : "nav-link"}>
           <h3 onClick= {onClick} >Contact</h3>
         </Link>
       </li>
