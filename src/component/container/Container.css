@@ -1,0 +1,48 @@
+.image-cropper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 100%;
+  }
+
+  .img{
+        display: inline;
+        margin: 0 auto;
+        margin-left: -13%;
+        height: 150%;
+        width: 125%;
+      
+  }
+.details{
+    text-align: center;
+}
+.container{
+  box-shadow: 0 8px 6px -6px black;
+}
+
+body {
+    background: #EEF2F7;
+  }
+  .pageName{
+    font-size: 68px;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+  }
+  .pageName:hover{
+    background-size: 100% 88%;
+  }
+  .details{
+      font-size: 19px;
+      font-weight: bold
+
+  }
+.solid {
+    border-top: 3px solid #bbb;
+  }
