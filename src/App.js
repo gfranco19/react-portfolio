@@ -16,7 +16,7 @@ return (
   <Router>
     <div>
     <NavTabs />
-    <Route exact path = "/" component ={Welcome} />
+    <Route exact path = "/react-portfolio" component ={Welcome} />
     </div>
     <About />
     <Notabilities/>
